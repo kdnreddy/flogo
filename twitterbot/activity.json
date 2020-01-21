@@ -1,0 +1,47 @@
+{
+    "name": "twitterbot",
+    "title": "Twitter Activity",
+    "version": "1.0.0",
+    "type": "flogo:activity",
+    "author": "Dheeren Karam",
+    "display": {
+       "category": "TIBCO",
+       "visible": true,
+       "description": "This activity posts a message to Twitter"
+    },
+    
+    "inputs": [
+           {
+            "name": "inputString",
+            "type": "string",
+            "required": true
+           },
+           {
+              "name": "consumerKey",
+              "type": "string",
+              "required": true
+             },
+             {
+              "name": "consumerSecret",
+              "type": "string",
+              "required": true
+             },
+             {
+                "name": "accessToken",
+                "type": "string",
+                "required": true
+             },
+             {
+                "name": "accessTokenSecret",
+                "type": "string",
+                "required": true
+             }
+    ],
+  
+    "outputs": [
+           {
+            "name": "result",
+            "type": "string"
+          }
+    ]
+}
