@@ -10,7 +10,7 @@
        "description": "This activity will tweet a message"
     },
  
-    "ref": "github.com/github.com/kdnreddy/flogo/encrypt",
+    "ref": "github.com/kdnreddy/flogo/encrypt",
     "inputs": [
            {
             "name": "inputString",
