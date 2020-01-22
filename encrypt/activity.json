@@ -7,10 +7,10 @@
     "display": {
        "category": "TIBCO",
        "visible": true,
-       "description": "This activity returns the sha256 of input string and salt"
+       "description": "This activity will tweet a message"
     },
  
-    "ref": "github.com/project-flogo/contrib/activity/encrypt",
+    "ref": "github.com/github.com/kdnreddy/flogo/encrypt",
     "inputs": [
            {
             "name": "inputString",
