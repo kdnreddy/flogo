@@ -10,7 +10,7 @@
        "description": "This activity returns the sha256 of input string and salt"
     },
  
-    "ref": "github.com/TIBCOSoftware/tci/examples/TIBCO/activity/encode",
+    "ref": "github.com/kdnreddy/flogo/encode",
     "inputs": [
            {
             "name": "inputString",
